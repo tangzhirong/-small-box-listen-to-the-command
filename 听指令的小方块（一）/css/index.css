@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 560px;
+    margin: 0 auto;
+}
+
+tr:first-child td,tr td:first-child{
+    border: 0;
+    font-weight: bolder;
+}
+
+td{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+}
+
+.control{
+    margin: 20px auto;
+    width: 160px;
+}
+
+.control input{
+    width: 100px;
+    height: 20px;
+}
+
+.control button{
+    width: 40px;
+    height: 25px;
+}
+
